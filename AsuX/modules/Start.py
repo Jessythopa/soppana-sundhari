@@ -11,7 +11,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     akboss.append(
         [
             InlineKeyboardButton(
-                text="𝑨𝑫𝑫 𝒀𝑶𝑼𝑹 𝑮𝑹𝑶𝑼𝑷",
+                text="Add your group ",
                 url=f"http://t.me/{context.bot.username}?startgroup=true"),
             InlineKeyboardButton(
                 InlineKeyboardButton(text="Maintained By", url=f"https://t.me/daily_grief"),
@@ -31,7 +31,7 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
     akboss.append(
         [
             InlineKeyboardButton(
-                text="𝑨𝑫𝑫 𝒀𝑶𝑼𝑹 𝑮𝑹𝑶𝑼𝑷",
+                text="Add your group ",
                 url=f"http://t.me/{context.bot.username}?startgroup=true"),
             InlineKeyboardButton(text="Maintained By", url=f"https://t.me/daily_grief"),
         ]
