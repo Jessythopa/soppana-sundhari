@@ -16,4 +16,4 @@ START_IMG_URL = getenv(
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://graph.org/file/72d486a8eb2e2063e439c.jpg"
 )
-OWNER_ID = int(getenv("OWNER_ID", "6804467181"))
+OWNER_ID = int(getenv("OWNER_ID", "7110227169"))
