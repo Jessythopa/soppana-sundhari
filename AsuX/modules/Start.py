@@ -33,7 +33,7 @@ async def help(update: Update, context: ContextTypes.DEFAULT_TYPE):
             InlineKeyboardButton(
                 text="Add your group ",
                 url=f"http://t.me/{context.bot.username}?startgroup=true"),
-            InlineKeyboardButton(text="Maintained By", url=f"https://t.me/daily_grief"),
+            InlineKeyboardButton(text="Maintained By", url=config.MAINTAINED_BY ),
         ]
     )
     await msg.reply_text(
